@@ -1,10 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# React App to display Git Users List & Details.
+# React App to display Git Users List & details & also to add remove from friend list
+
+# Git Users Page
 
 <center><img src="https://raw.githubusercontent.com/sunilchaudhary3112/react_git_users_ui/master/git_users_list.JPG" /></center>
 
-# React App to display Git Users List & Details.
+# Git User Detail Page with option to add/remove 
 
 <center><img src="https://raw.githubusercontent.com/sunilchaudhary3112/react_git_users_ui/master/git_user_detail.JPG" /></center>
 

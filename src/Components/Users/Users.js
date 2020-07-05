@@ -15,9 +15,7 @@ export default function Users() {
 
     return (
         <div className="wrapper">
-            
             {allUsers.map(user=> <SmallCards key={user['login']} name={user['login']} avatar={user['avatar_url']} />)}
-
         </div>
     )
 }
