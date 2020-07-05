@@ -1,7 +1,7 @@
 import { ADD_USER, REMOVE_USER } from "./ActionTypes";
 
 const initialSate = {
-    users: []
+    users: [] //list of friends
 }
 
 export default function rootReducer(state = initialSate, action) {

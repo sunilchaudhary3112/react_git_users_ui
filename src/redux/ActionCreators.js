@@ -1,13 +1,13 @@
 import { ADD_USER, REMOVE_USER } from "./ActionTypes";
 
-export function ADDUSER(payload) {
+export function AddUser(payload) {
     return {
         type: ADD_USER,
         payload
     }
 }
 
-export function REMOVEUSER(payload) {
+export function RemoveUser(payload) {
     return {
         type: REMOVE_USER ,
         payload

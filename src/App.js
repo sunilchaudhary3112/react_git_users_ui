@@ -20,10 +20,10 @@ function App() {
             <Route path={"/"} exact component={Home} />
             <Route path={"/about"} component={About} />
             <Route path={"/users"} exact component={Users} />
-            <Route path={"/users/:username"} component={UserDetails} />
+            <Route path={"/users/:username"} component={UserDetails} /> 
+            {/* dynamic routing /users/:username*/}
           </Provider>
         </Switch>
-
       </Router>
 
     </div>

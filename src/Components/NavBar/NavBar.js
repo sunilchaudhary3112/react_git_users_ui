@@ -12,16 +12,16 @@ export default function NavBar() {
                 <Link to={"/"} className="nav-items">
                     <li>Home</li>
                 </Link >
-                {/* <Link to={"/about"} className="nav-items">
+                <Link to={"/about"} className="nav-items">
                     <li>About</li>
-                </Link> */}
+                </Link>
 
-                <Link to={{
+                {/* <Link to={{
                     pathName: '/about',
                     state: { loading: false }
                 }} className="nav-items">
                     <li>About</li>
-                </Link>
+                </Link> */}
                 
                 <Link to={"/users"} className="nav-items">
                     <li>Users</li>
